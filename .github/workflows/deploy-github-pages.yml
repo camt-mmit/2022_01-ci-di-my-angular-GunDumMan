@@ -4,7 +4,7 @@ on:
   push:
     branchs: master
 jobs:
-  deploy-gh-pasges:
+  deploy-gh-pages:
     runs-on: ubuntu-latest
     steps:
       - users: actions/checkout@v3
