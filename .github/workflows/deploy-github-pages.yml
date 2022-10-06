@@ -2,7 +2,7 @@ name: deploy-gh-pages-actions
 run-name: ${{ github.actor }} is deploying gh-pages
 on:
   push:
-    branchs:
+    branches: 
       - master
 jobs:
   deploy-gh-pages:
