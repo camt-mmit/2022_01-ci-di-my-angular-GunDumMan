@@ -1,4 +1,4 @@
-name: deploy release
+name: deploy release ja
 run-name: ${{ github.actor }} is deploying release
 on:
   release:
